@@ -1,0 +1,233 @@
+ * {
+ 	box-sizing: border-box;
+
+ 	}
+
+ html {
+    position: relative;
+    min-height: 100%;
+   }	
+
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: #CDEBF7;
+	margin: 0 0 90px; /* bottom = footer height */
+    overflow-x: hidden;
+}
+
+ 	.nameHeader {
+ 	background-color: #ffffff;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border-bottom: 1px solid #cccccc;
+    position: static;
+    text-align: center;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #002E5D;
+     height: 90px;
+   
+}
+
+#calendarButton {
+    display: block;
+    height: 50px;
+    width: 150px;
+    background: #CDEBF7;
+    border: 2px solid #CDEBF7;
+    float: right;
+    margin: -70px 155px 5px 95px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 5px 5px 10px #777777;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+
+ .nameList{
+ 	background-color: #CDEBF7;
+ 	width: 100%;
+ 	height: 39px;
+ 	position: absolute;
+ 	 -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border-bottom: 1px solid #cccccc;
+ 	color: #002E5D;
+ 	line-height: 35px;
+
+ }
+ 
+
+ .nameList a{
+ 	padding-left: 50px;
+	padding-right: 10px;
+    font-size: 15px;
+	margin: 10px 0 10px;
+}
+
+#icons {
+   padding-left: 955px;
+   margin-top: -35px
+}
+
+h3 {
+  line-height: 45px;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: #002E5D;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+}
+.westbay {
+  line-height: 10px;
+   outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 1.1;
+}
+
+.panel-body {
+text-align: right;
+
+}
+.background-image {
+    padding-bottom: 10px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    float: left;
+    margin: 75px 25px 25px 235px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+
+
+.intro-info {
+    float: right;
+    font-size: 115%;
+    width: 500px;
+    margin: 85px 135px 0px 100px;
+    color: #002E5D;
+}
+.ourPlaceArticle {
+    float: left;
+    font-size: 115%;
+    width: 500px;
+    margin: 45px 0px 0px 115px;
+    color: #002E5D;  
+}
+
+.carouselSlide {
+    margin: 45px 5px 5px 5px;
+    position: relative;
+    border: 8px solid #eee;
+    width: 580px;
+    height: 375px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+
+.carousel-inner {
+    position: relative;
+    height: 100%;
+    
+}
+
+
+.item img{
+    position: absolute;
+  width:100%;
+  height:100%;
+}
+
+
+
+.item-active{
+    position:relative;
+    float: left;
+    width:100%;
+    height:100%;
+    display: block;
+}
+
+.carousel-inner > .item{ display:inline-block; }
+
+.carousel-inner > .item-active{
+    display: inline-block;
+}
+
+#img1{
+    top:-200px;
+}
+
+.imgLocation {
+  position: absolute;
+  float: left;
+  margin: 5px 0px 75px 75px;
+  width: 580px;
+  height: 375px;
+  border: 8px solid #eee; 
+  overflow: hidden;
+  background-color: #ffffff;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+
+.location {
+     float: left;
+    font-size: 115%;
+    width: 500px;
+    margin: 85px 0px 0px 25px;
+    color: #002E5D;  
+}
+
+.doNotMiss {
+    float: left;
+    font-size: 115%;
+    width: 500px;
+    margin: 185px 0px 0px 125px;
+    color: #002E5D; 
+
+}
+
+.imgDoNotMiss {
+  position: absolute;
+  float: right;
+  margin: -230px 0px 75px 720px;
+  width: 580px;
+  height: 375px;
+  border: 8px solid #eee; 
+  overflow: hidden; 
+  background-color: #ffffff;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+}
+ .footer {
+     float: center;
+    font-size: 115%;
+    width: 500px;
+    margin: 275px 0px 0px 455px;
+    color: #002E5D;  
+    text-align: center;
+
+ }
+
+
+
+
