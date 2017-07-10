@@ -121,7 +121,7 @@ text-align: right;
     margin: 85px 135px 0px 100px;
     color: #002E5D;
 }
-.ourPlaceArticle {
+#ourPlaceArticle {
     float: left;
     font-size: 115%;
     width: 500px;
@@ -129,8 +129,8 @@ text-align: right;
     color: #002E5D;  
 }
 
-.carouselSlide {
-    margin: 45px 5px 5px 5px;
+.video {
+    margin: 45px 5px 45px 5px;
     position: relative;
     border: 8px solid #eee;
     width: 580px;
@@ -141,7 +141,7 @@ text-align: right;
     box-shadow: 0 0 10px #777777;
 }
 
-.carousel-inner {
+.col-md-6 {
     position: relative;
     height: 100%;
     
@@ -164,11 +164,6 @@ text-align: right;
     display: block;
 }
 
-.carousel-inner > .item{ display:inline-block; }
-
-.carousel-inner > .item-active{
-    display: inline-block;
-}
 
 #img1{
     top:-200px;
@@ -177,7 +172,7 @@ text-align: right;
 .imgLocation {
   position: absolute;
   float: left;
-  margin: 5px 0px 75px 75px;
+  margin: 5px 30px 75px 75px;
   width: 580px;
   height: 375px;
   border: 8px solid #eee; 
@@ -188,7 +183,7 @@ text-align: right;
     box-shadow: 0 0 10px #777777;
 }
 
-.location {
+#location {
      float: left;
     font-size: 115%;
     width: 500px;
@@ -196,7 +191,7 @@ text-align: right;
     color: #002E5D;  
 }
 
-.doNotMiss {
+#doNotMiss {
     float: left;
     font-size: 115%;
     width: 500px;
@@ -218,7 +213,7 @@ text-align: right;
     -webkit-box-shadow: 0 0 10px #777777;
     box-shadow: 0 0 10px #777777;
 }
- .footer {
+ #footer {
      float: center;
     font-size: 115%;
     width: 500px;
